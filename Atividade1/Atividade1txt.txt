@@ -1,0 +1,26 @@
+  Atividade 1 {
+      var logico notaValida = falso;
+
+      inteiro nota
+
+      do
+      {
+          escreval("Insira sua nota de 0 a 10!:"); 
+          leia (nota)
+
+          se (nota == 10){
+              escreval("Nota validada!"); 
+              notaValida = verdadeiro;
+          }
+          se (nota < 10){
+              escreval("Nota validada!"); 
+              notaValida = verdadeiro;
+          }else{
+              escreval("A nota inserida é invalida , por favor insira uma nota valida!")
+              leia (nota)
+              notaValida = falso;
+          }
+      }
+
+      enquanto notaValida faca == falso ;
+  }   

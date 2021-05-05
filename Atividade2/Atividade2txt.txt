@@ -1,0 +1,22 @@
+   Atividade2txt{
+       logico senhaAceitavel = falso;
+
+       do
+       {
+           escreval ("Insira um nome de usuário: ")
+           leia (nomeUsuario)
+
+           escreval ("Insira uma senha: ")
+           leia (senhaUsuario)
+
+           se (senhaUsuario != nomeUsuario)
+           {
+               escreval ("Nome e Senha validados!")
+               senhaAceitavel = verdadeio          
+           }senao {
+               escreval ("Senha inserida invalida!")
+               senhaAceitavel = falso
+           }
+           esquanto senhaAceitavel == falso faca
+       }
+   }

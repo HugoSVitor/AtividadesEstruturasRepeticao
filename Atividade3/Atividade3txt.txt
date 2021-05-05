@@ -1,0 +1,112 @@
+Atividade3txt{
+    logico nomeAceitavel = falso
+    logico idadeAceitavel = falso
+    logico salarioAceitavel = falso
+    logico estadoCivilValido = falso
+
+    caractere nome
+    inteiro idade
+    inteiro salario
+    caractere estadoCivil
+
+    escreval("Insira seu nome:")
+    leia (nome)
+
+    se (nome =="")
+    {
+        escreval("Nome invalido!")
+
+        escreval("Insira um nome valido!")
+        leia (nome)
+        nomeAceitavel = falso
+    }if (nome !="")
+    {
+        escreval("Nome validado! Seu nome é: " + nome)
+        nomeAceitavel = verdadeiro
+    }
+    esquanto (nomeAceitavel == falso) faca
+
+    
+
+
+
+    escreval("Insira sua idade:")
+    leia (idade)
+
+    se (idade > 150)
+    {
+        escreval("Idade invalida!")
+
+        escreval("Insira uma idade valida!")
+        leia (idade)
+        idadeAceitavel = falso
+    }if (nome < 151)
+    {
+        escreval("Idade validada! Sua idade é: " + idade)
+        idadeAceitavel = verdadeiro
+    }
+    esquanto (idadeAceitavel == falso) faca
+
+    
+
+
+
+
+    escreval("Insira seu salário:")
+    leia (salario)
+
+    se (salario == 0)
+    {
+        escreval("Salário invalido!")
+
+        escreval("Insira um salário valido!")
+        leia (salario)
+        salarioAceitavel = falso
+    }if (salario != 0)
+    {
+        escreval("Salário validado! Seu salário é: " + salario)
+        salarioAceitavel = verdadeiro
+    }
+    esquanto (salarioAceitavel == falso) faca
+
+
+
+    
+    
+    escreval("Insira seu estado civil (s = solteiro(a)  c = casado(a) v = viuvo(a) d = divorciado(a) ):")
+    leia (estadoCivil)
+
+    se(salarioCivil == "s")
+    {
+        escreval ("Estado Civil validado! Você é solteiro(a)!")
+        estadoCivilValido = verdadeiro
+    }
+
+    se(salarioCivil == "c")
+    {
+        escreval ("Estado Civil validado! Você é casado(a)!")
+        estadoCivilValido = verdadeiro
+    }
+
+    se(salarioCivil == "d")
+    {
+        escreval ("Estado Civil validado! Você é divorciado(a)!")
+        estadoCivilValido = verdadeiro
+    }
+
+    se(salarioCivil == "v")
+    {
+        escreval ("Estado Civil validado! Você é viuvo(a)!")
+        estadoCivilValido = verdadeiro
+    }senao
+    {
+        escreval ("Estado Civil invalido!")
+
+        escreval ("Insira um Estado Civil valido!")
+        leia (estadoCivil)
+        estadoCivilValido = falso
+    }
+
+    enquanto (estadoCivilValido == falso) faca
+
+ }

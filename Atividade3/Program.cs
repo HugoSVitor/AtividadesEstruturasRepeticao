@@ -20,6 +20,7 @@ namespace Atividade3
                 
                 Console.WriteLine("Insira um nome valido!");
                 nome = Console.ReadLine().ToLower();
+                nomeAceitavel = false;
             }if (nome !="")
             {
                 Console.WriteLine("Nome validado! Seu nome é: " + nome);
@@ -103,9 +104,9 @@ namespace Atividade3
             {
                 Console.WriteLine("Estado Civil invalido!");
                 
-                    Console.WriteLine("Insira um Estado Civil valido!");
-                    estadoCivil = Console.ReadLine();
-                    estadoCivilValido = false; 
+                Console.WriteLine("Insira um Estado Civil valido!");
+                estadoCivil = Console.ReadLine();
+                estadoCivilValido = false; 
             }
             
             while (estadoCivilValido == false)

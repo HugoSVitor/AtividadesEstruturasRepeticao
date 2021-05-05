@@ -1,4 +1,4 @@
-   Atividade2txt{
+﻿   Atividade2txt{
        logico senhaAceitavel = falso;
 
        do
@@ -17,6 +17,6 @@
                escreval ("Senha inserida invalida!")
                senhaAceitavel = falso
            }
-           esquanto senhaAceitavel == falso faca
+           esquanto (senhaAceitavel == falso) faca
        }
    }
